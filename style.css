@@ -1,0 +1,113 @@
+@font-face {
+    font-family: main;
+    src: url('./public/font/1Ptug8zYS_SKggPNyC0IT4ttDfA.woff2');
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* section 3  */
+
+#body3a:hover {
+    background-image: linear-gradient(rgb(78, 90, 195, 0.6), rgb(78, 90, 195, 0.6)), url('./public/images/items/item1.webp');
+}
+
+#body3a:hover #body3aText {
+    display: block;
+}
+
+
+
+#body3b:hover {
+    background-image: linear-gradient(rgb(78, 90, 195, 0.6), rgb(78, 90, 195, 0.6)), url('./public/images/items/item2.webp');
+}
+
+#body3b:hover #body3bText {
+    display: block;
+}
+
+
+
+#body3c:hover {
+    background-image: linear-gradient(rgb(78, 90, 195, 0.6), rgb(78, 90, 195, 0.6)), url('./public/images/items/item3.webp');
+}
+
+#body3c:hover #body3cText {
+    display: block;
+}
+
+
+
+#body3d:hover {
+    background-image: linear-gradient(rgb(78, 90, 195, 0.6), rgb(78, 90, 195, 0.6)), url('./public/images/items/item4.webp');
+}
+
+#body3d:hover #body3dText {
+    display: block;
+}
+
+
+
+#body3e:hover {
+    background-image: linear-gradient(rgb(78, 90, 195, 0.6), rgb(78, 90, 195, 0.6)), url('./public/images/items/item5.jpg');
+}
+
+#body3e:hover #body3eText {
+    display: block;
+}
+
+
+
+#body3f:hover {
+    background-image: linear-gradient(rgb(78, 90, 195, 0.6), rgb(78, 90, 195, 0.6)), url('./public/images/items/item6.jpg');
+}
+
+#body3f:hover #body3fText {
+    display: block;
+}
+
+
+
+/* section 5 */
+
+#body5a:hover {
+    background-image: linear-gradient(rgb(78, 90, 195, 0.6), rgb(78, 90, 195, 0.6)), url('./public/images/persons/person1.jpg');
+}
+
+#body5a:hover #body5aText {
+    display: block;
+}
+
+
+#body5b:hover {
+    background-image: linear-gradient(rgb(78, 90, 195, 0.6), rgb(78, 90, 195, 0.6)), url('./public/images/persons/person2.jpg');
+}
+
+#body5b:hover #body5bText {
+    display: block;
+}
+
+#body5c:hover {
+    background-image: linear-gradient(rgb(78, 90, 195, 0.6), rgb(78, 90, 195, 0.6)), url('./public/images/persons/person3.jpg');
+}
+
+#body5c:hover #body5cText {
+    display: block;
+}
+
+#body5d:hover {
+    background-image: linear-gradient(rgb(78, 90, 195, 0.6), rgb(78, 90, 195, 0.6)), url('./public/images/persons/person4.jpg');
+}
+
+#body5d:hover #body5dText {
+    display: block;
+}
+
+
+/* section 6 */
+
+#section6{
+    background-image: linear-gradient(rgb(78, 90, 195, 0.8), rgb(78, 90, 195, 0.8)), url('./public/images/bg/bg3');
+}
+

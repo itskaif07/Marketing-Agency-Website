@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Socialight | Marketing Agency</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./public/images/logo.png" type="image/x-icon">
+
+
+</head>
+
+<body class="font-[main] w-full h-full">
+    <div id="menubar"
+        class="xl:hidden text-2xl z-50 text-white space-y-10 fixed w-full h-full flex flex-col items-center py-32 bg-[#505ab6] tracking-normal uppercase translate-x-full opacity-0">
+
+        <img id="x" src="./public/images/icons/icons8-cross-50.png" alt="" class="fixed top-8 right-10 invert w-16">
+
+        <div id="logIn"
+            class="hover:opacity-50 text-2xl transition-all duration-100 ease-in flex items-center space-x-2 capitalize cursor-pointer">
+            <img src="./public/images/icons/icons8-user-64.png" alt="" class="w-8">
+            <a href="index.html">Log In</a>
+        </div>
+
+
+        <a href="#section1" class="hover:opacity-50 transition-all duration-100 ease-in block">services</a>
+        <a href="#section2" class="hover:opacity-50 transition-all duration-100 ease-in block">about us</a>
+        <a href="index.html" class="hover:opacity-50 transition-all duration-100 ease-in block">programs</a>
+        <a href="#section3" class="hover:opacity-50 transition-all duration-100 ease-in block">work</a>
+        <a href="#section5" class="hover:opacity-50 transition-all duration-100 ease-in block">team</a>
+        <a href="index.html" class="hover:opacity-50 transition-all duration-100 ease-in block">blog</a>
+        <a href="#section7" class="hover:opacity-50 transition-all duration-100 ease-in block">contact</a>
+
+    </div>
+
+    <div id="comment"
+        class="bg-[#222222] w-20 h-20 fixed bottom-6 right-6 hidden xl:flex items-center justify-center cursor-pointer">
+        <img src="./public/images/icons/icons8-comment-30.png" alt="" class="w-10">
+    </div>
+
+    <div id="dots" class="fixed z-50 top-48 right-10 space-y-10 hidden xl:block">
+
+        <a href="#header" class="cursor-pointer block dot">
+            <div id="dot0" class="h-4 w-4 rounded-full border-4 border-white hover:bg-white"></div>
+        </a>
+
+        <a href="#section1" class=" cursor-pointer block dot">
+            <div id="dot1" class="h-4 w-4 rounded-full border-4 border-white hover:bg-white"></div>
+        </a>
+
+        <a href="#section2" class=" cursor-pointer block dot">
+            <div id="dot2" class="h-4 w-4 rounded-full border-4 border-white hover:bg-white"></div>
+        </a>
+
+        <a href="#section3" class=" cursor-pointer block dot">
+            <div id="dot3" class="h-4 w-4 rounded-full border-4 border-white hover:bg-white"></div>
+        </a>
+
+        <a href="#section4" class=" cursor-pointer block dot">
+            <div id="dot4" class="h-4 w-4 rounded-full border-4 border-white hover:bg-white"></div>
+        </a>
+
+        <a href="#section5" class=" cursor-pointer block dot">
+            <div id="dot5" class="h-4 w-4 rounded-full border-4 border-white hover:bg-white"></div>
+        </a>
+
+        <a href="#section6" class=" cursor-pointer block dot">
+            <div id="dot6" class="h-4 w-4 rounded-full border-4 border-white hover:bg-white"></div>
+        </a>
+
+        <a href="#section7" class="cursor-pointer block dot">
+            <div id="dot7" class="h-4 w-4 rounded-full border-4 border-white hover:bg-white"></div>
+        </a>
+    </div>
+
+
+    <header id="header" class="bg-[url('./public/images/bg/bg1.webp')] bg-cover bg-center  w-full">
+
+
+        <nav
+            class="relative flex items-center z-10 justify-between max-[300px]:px-0 max-[400px]:px-2 px-10 py-3 xl:justify-around 2xl:justify-evenly xl:px-0">
+
+            <a href="index.html">
+                <div id="logo" class="flex items-center py-3 max-[300px]:space-x-0 min-[301px]:space-x-3 ">
+                    <img src="./public/images/icons/logo.png" alt="">
+                    <h1 class="text-white text-lg font-semibold tracking-[0.3em] max-[300px]:text-sm">SOCIALIGHT</h1>
+                </div>
+            </a>
+            <img id="menu" class="xl:hidden" src="./public/images/icons/icons8-menu-50.png" alt="">
+
+            <div id="navbar"
+                class="hidden xl:flex items-center text-lg text-white space-x-10 tracking-normal uppercase">
+
+                <a href="#section1" class="hover:opacity-50 transition-all duration-100 ease-in">services</a>
+                <a href="#section2" class="hover:opacity-50 transition-all duration-100 ease-in">about us</a>
+                <a href="index.html" class="hover:opacity-50 transition-all duration-100 ease-in">programs</a>
+                <a href="#section3" class="hover:opacity-50 transition-all duration-100 ease-in">work</a>
+                <a href="#section5" class="hover:opacity-50 transition-all duration-100 ease-in">team</a>
+                <a href="index.html" class="hover:opacity-50 transition-all duration-100 ease-in">blog</a>
+                <a href="#section7" class="hover:opacity-50 transition-all duration-100 ease-in">contact</a>
+
+                <div id="logIn"
+                    class="hover:opacity-50 text-xl transition-all duration-100 ease-in flex items-center space-x-2 capitalize cursor-pointer">
+                    <img src="./public/images/icons/icons8-user-64.png" alt="" class="w-8">
+                    <a href="#">Log In</a>
+                </div>
+
+            </div>
+
+            <nav class="absolute inset-0 bg-[#505ab6] -z-10  bg-opacity-60"></nav>
+        </nav>
+
+        <div id="headerText" class="pl-4 py-28 xl:pt-56 xl:pb-36 xl:pl-52">
+            <h1
+                class="max-[300px]:text-3xl max-[370px]:text-4xl min-[371px]:text-5xl sm:text-6xl text-[#222222] xl:text-[7rem]  xl:leading-[6rem] font-bold w-1/2">
+                MAKING CONNECTIONS</h1>
+
+            <h1
+                class="max-[300px]:text-3xl max-[370px]:text-4xl min-[370px]:text-5xl sm:text-6xl text-[#222222] xl:text-[7rem] xl:leading-[6rem] xl:text-white font-bold w-1/2">
+                DELIVERING RESULTS</h1>
+
+            <p
+                class="max-[300px]:text-xl min-[301px]:text-2xl sm:text-4xl xl:text-2xl text-white font-semibold w-full min-[380px]:w-[60%] max-[640px]:w-[60%] sm:w-[70%] md:w-[60%] xl:w-full py-10 xl:py-20 tracking-[0.2em]">
+                BUILDING YOUR SOCIAL BRAND</p>
+        </div>
+
+    </header>
+
+    <section id="section1" class="bg-[#3c3c4e] text-white space-y-32 pl-4 py-28">
+
+        <div id="head1" class="group flex flex-col space-y-6 xl:pl-52">
+            <div class="bg-white py-2 px-8 self-start"></div>
+            <h1
+                class=" max-[300px]:text-3xl max-[370px]:text-4xl min-[371px]:text-5xl sm:text-6xl xl:text-[6.5rem] xl:leading-[6rem] font-bold w-1/2 md:w-[40%] lg:w-[30%]">
+                OUR SERVICES</h1>
+        </div>
+
+        <div id="body1"
+            class=" xl:pl-52 w-full space-y-20 xl:flex items-center xl:space-x-24 2xl:space-x-0 xl:space-y-0">
+
+            <div
+                class="flex items-center justify-between xl:justify-normal xl:space-x-44 w-full min-[1800px]:space-x-72">
+
+                <div id="body1a" class="group flex flex-col space-y-4">
+                    <div class="bg-[#4e5ac3] py-[0.4rem] px-8 self-start"></div>
+                    <h5 class="text-xl w-1/2 font-light tracking-widest uppercase leading-none">social media</h5>
+                </div>
+
+                <div id="body1b" class="group flex flex-col space-y-4">
+                    <div class="bg-[#4e5ac3] py-[0.4rem] px-8 self-start"></div>
+                    <h5 class="text-xl w-1/2 font-light tracking-widest uppercase leading-none">creative strategy</h5>
+                </div>
+            </div>
+
+            <div
+                class="flex items-center justify-between xl:justify-normal xl:space-x-44 w-full min-[1800px]:space-x-72">
+                <div id="body1c" class="group flex flex-col space-y-4">
+                    <div class="bg-[#4e5ac3] py-[0.4rem] px-8 self-start"></div>
+                    <h5 class="text-xl w-1/2 font-light tracking-widest uppercase leading-none">Public relations</h5>
+                </div>
+
+                <div id="body1d" class="group flex flex-col space-y-4">
+                    <div class="bg-[#4e5ac3] py-[0.4rem] px-8 self-start"></div>
+                    <h5 class="text-xl w-1/2 font-light tracking-widest uppercase leading-none">content marketing</h5>
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+
+    <section id="section2"
+        class="bg-[url('./public/images/bg/bg2.webp')] bg-top bg-cover bg-fixed pt-28 pb-52  pl-4 xl:pl-52 space-y-10">
+
+
+        <div id="head2" class="group flex flex-col space-y-6">
+            <div class="bg-[#4e5ac3] py-2 px-8 self-start"></div>
+            <h1
+                class=" max-[300px]:text-3xl max-[370px]:text-4xl text-[#222222] min-[371px]:text-5xl sm:text-6xl xl:text-[6.5rem] xl:leading-[6rem] font-bold w-[35%] sm:w-[40%] md:w-[30%] lg:w-[25%] xl:w-[40%] 2xl:w-[30%] min-[1600px]:w-[30%] min-[2000px]:w-[30%] min-[2500px]:w-[20%] uppercase">
+                who we are</h1>
+        </div>
+
+        <div id="body2">
+            <p
+                class="text-xl sm:w-[80%] md:w-[75%] 2xl:w-[60%] leading-relaxed min-[2000px]:w-1/2 min-[2400px]:w-[40%]">
+                I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or
+                double click me to add your own content and make changes to the font. Feel free to drag and drop me
+                anywhere you like on your page. I’m a great place for you to tell a story and let your users know a
+                little more about you.</p>
+        </div>
+
+
+    </section>
+
+    <section id="section3" class="pt-28 space-y-32 max-[300px]:h-[375vh] max-[400px]:h-[370vh] h-[360vh] xl:h-full">
+
+        <div id="head3" class="space-y-10 pl-4 xl:pl-52">
+            <div id="head3a" class="group flex flex-col space-y-6">
+                <div class="bg-[#4e5ac3] py-2 px-8 self-start"></div>
+                <h1
+                    class=" max-[300px]:text-3xl max-[370px]:text-4xl text-[#222222] min-[371px]:text-5xl sm:text-6xl xl:text-[6.5rem] xl:leading-[6rem] font-bold w-[35%] sm:w-[40%] md:w-[30%] lg:w-[25%] xl:w-[40%] 2xl:w-[30%] min-[1600px]:w-[30%] min-[2100px]:w-[25%] min-[2500px]:w-[20%] uppercase">
+                    our work</h1>
+            </div>
+
+            <div id="head3b">
+                <p
+                    class="text-xl sm:w-[80%] md:w-[75%] 2xl:w-[60%] leading-relaxed min-[2000px]:w-1/2 min-[2400px]:w-[40%]">
+                    I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or
+                    double click me to add your own content and make changes to the font. Feel free to drag and drop me
+                    anywhere you like on your page. I’m a great place for you to tell a story and let your users know a
+                    little more about you.</p>
+            </div>
+        </div>
+
+        <div id="body3" class="uppercase text-white w-full h-full">
+
+            <div id="body3row1" class="xl:flex items-center w-full">
+
+                <div id="body3a"
+                    class="w-full xl:w-1/3 bg-[url('./public/images/items/item1.webp')] flex flex-col items-center justify-center cursor-pointer  bg-cover h-[50vh]">
+                    <div id="body3aText" class="text-center space-y-3 hidden">
+                        <h1 class="text-5xl font-semibold">christina sun</h1>
+                        <h5 class="text-2xl capitalize">pr launch</h5>
+                    </div>
+                </div>
+
+                <div id="body3b"
+                    class="w-full xl:w-1/3 bg-[url('./public/images/items/item2.webp')] flex flex-col items-center justify-center cursor-pointer  bg-cover h-[50vh]">
+                    <div id="body3bText" class="text-center space-y-3 hidden">
+                        <h1 class="text-5xl font-semibold">grace athletics</h1>
+                        <h5 class="text-2xl capitalize">facebook campaign</h5>
+                    </div>
+                </div>
+
+                <div id="body3c"
+                    class="w-full xl:w-1/3 bg-[url('./public/images/items/item3.webp')] flex flex-col items-center justify-center cursor-pointer  bg-cover h-[50vh]">
+                    <div id="body3cText" class="text-center space-y-3 hidden">
+                        <h1 class="text-5xl font-semibold">celebrate</h1>
+                        <h5 class="text-2xl capitalize">content planning</h5>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div id="body3row2" class="xl:flex items-center w-full h-[50vh]">
+
+
+                <div id="body3d"
+                    class="w-full xl:w-1/3 bg-[url('./public/images/items/item4.webp')] flex flex-col items-center justify-center cursor-pointer  bg-cover h-[50vh]">
+                    <div id="body3dText" class="text-center space-y-3 hidden">
+                        <h1 class="text-5xl font-semibold">as sneakers</h1>
+                        <h5 class="text-2xl capitalize">facebook campaign</h5>
+                    </div>
+                </div>
+
+
+                <div id="body3e"
+                    class="w-full xl:w-1/3 bg-[url('./public/images/items/item5.jpg')] flex flex-col items-center justify-center cursor-pointer  bg-cover h-full h-[50vh]">
+                    <div id="body3eText" class="text-center space-y-3 hidden">
+                        <h1 class="text-5xl font-semibold">swimwear</h1>
+                        <h5 class="text-2xl capitalize">facebook campaign</h5>
+                    </div>
+                </div>
+
+                <div id="body3f"
+                    class="w-full xl:w-1/3 bg-[url('./public/images/items/item6.jpg')] flex flex-col items-center justify-center cursor-pointer  bg-cover h-full h-[50vh]">
+                    <div id="body3fText" class="space-y-3 text-center hidden">
+                        <h1 class="text-5xl font-semibold">02 watches</h1>
+                        <h5 class="text-2xl capitalize">community management</h5>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="section4" class="pt-28 space-y-32 my-44 sm:my-0 hidden xl:block">
+        <div id="head4" class="space-y-8 pl-4 xl:pl-52">
+            <div id="head4a" class="group flex flex-col space-y-6">
+                <div class="bg-[#4e5ac3] py-2 px-8 self-start"></div>
+                <h1
+                    class=" max-[300px]:text-3xl max-[370px]:text-4xl text-[#222222] min-[371px]:text-5xl sm:text-6xl xl:text-[6.5rem] xl:leading-[6rem] font-bold w-[35%] sm:w-[40%] md:w-[30%] lg:w-[25%] xl:w-[40%] 2xl:w-[30%] min-[1600px]:w-[30%] min-[2100px]:w-[25%] min-[2500px]:w-[20%] uppercase">
+                    our clients</h1>
+            </div>
+
+            <div id="head4b">
+                <p
+                    class="text-xl sm:w-[80%] md:w-[75%] 2xl:w-[60%] leading-relaxed min-[2000px]:w-1/2 min-[2400px]:w-[40%]">
+                    I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or
+                    double click me to add your own content and make changes to the font. Feel free to drag and drop me
+                    anywhere you like on your page. I’m a great place for you to tell a story and let your users know a
+                    little more about you.</p>
+            </div>
+        </div>
+
+        <div id="body4">
+
+            <div id="body4row1" class="w-full xl:flex items-center justify-center min-[1800px]:space-x-44">
+
+                <div class="sm:flex items-center min-[1800px]:space-x-44">
+                    <div id="body4a" class="w-full h-full">
+                        <img src="./public/images/clients/client1.webp" alt="" class="w-full h-full">
+                    </div>
+                    <div id="body4b" class="w-full h-full">
+                        <img src="./public/images/clients/client2.webp" alt="" class="w-full h-full">
+                    </div>
+                </div>
+
+                <div class="sm:flex items-center min-[1800px]:space-x-44">
+                    <div id="body4c" class="w-full h-full">
+                        <img src="./public/images/clients/client3.webp" alt="" class="w-full h-full">
+                    </div>
+                    <div id="body4d" class="w-full h-full">
+                        <img src="./public/images/clients/client4.webp" alt="" class="w-full h-full">
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div id="body4row2" class="w-full xl:flex items-center justify-center min-[1800px]:space-x-44">
+
+                <div class="sm:flex items-center min-[1800px]:space-x-44">
+                    <div id="body4e" class="w-full h-full">
+                        <img src="./public/images/clients/client5.webp" alt="" class="w-full h-full">
+                    </div>
+                    <div id="body4f" class="w-full h-full">
+                        <img src="./public/images/clients/client6.webp" alt="" class="w-full h-full">
+                    </div>
+                </div>
+
+                <div class="sm:flex items-center min-[1800px]:space-x-44">
+                    <div id="body4g" class="w-full h-full">
+                        <img src="./public/images/clients/client7.webp" alt="" class="w-full h-full">
+                    </div>
+                    <div id="body4h" class="w-full h-full">
+                        <img src="./public/images/clients/client8.webp" alt="" class="w-full h-full">
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+    <section id="section5" class="bg-[#dadada] h-full">
+        <div id="head5" class="space-y-8 pl-4 xl:pl-52 py-32">
+            <div id="head5a" class="group flex flex-col space-y-6">
+                <div class="bg-[#4e5ac3] py-2 px-8 self-start"></div>
+                <h1
+                    class=" max-[300px]:text-3xl max-[370px]:text-4xl text-[#222222] min-[371px]:text-5xl sm:text-6xl xl:text-[6.5rem] xl:leading-[6rem] font-bold w-[35%] sm:w-[40%] md:w-[30%] lg:w-[25%] xl:w-[40%] 2xl:w-[30%] min-[1600px]:w-[30%] min-[2000px]:w-[20%] min-[2500px]:w-[20%] uppercase">
+                    our team</h1>
+            </div>
+
+            <div id="head5b">
+                <p
+                    class="text-xl sm:w-[80%] md:w-[75%] 2xl:w-[60%] leading-relaxed min-[2000px]:w-1/2 min-[2400px]:w-[40%]">
+                    I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or
+                    double click me to add your own content and make changes to the font. Feel free to drag and drop me
+                    anywhere you like on your page. I’m a great place for you to tell a story and let your users know a
+                    little more about you.</p>
+            </div>
+        </div>
+
+        <div id="body5" class="xl:flex items-center h-full text-white">
+
+            <div id="body5row1" class="w-full h-full sm:flex items-center">
+
+                <div id="body5a"
+                    class="w-full bg-[url('./public/images/persons/person1.jpg')] bg-cover bg-top h-96 cursor-pointer flex items-center justify-center">
+                    <div id="body5aText" class="text-center space-y-3 hidden">
+                        <h1 class="text-5xl font-semibold">ashley stewart</h1>
+                        <h5 class="text-2xl capitalize">community manager</h5>
+                    </div>
+                </div>
+
+                <div id="body5b"
+                    class="w-full h-96 bg-[url('./public/images/persons/person2.jpg')] bg-cover bg-top cursor-pointer flex items-center justify-center">
+                    <div id="body5bText" class="text-center space-y-3 hidden">
+                        <h1 class="text-5xl font-semibold">david salazar</h1>
+                        <h5 class="text-2xl capitalize">or manager</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div id="body5row2" class="w-full h-full sm:flex items-center">
+
+
+                <div id="body5c"
+                    class="w-full h-96 bg-[url('./public/images/persons/person3.jpg')] bg-cover bg-top cursor-pointer flex items-center justify-center">
+                    <div id="body5cText" class="text-center space-y-3 hidden">
+                        <h1 class="text-5xl font-semibold">patrick stone</h1>
+                        <h5 class="text-2xl capitalize">social strategist</h5>
+                    </div>
+                </div>
+                <div id="body5d"
+                    class="w-full h-96 bg-[url('./public/images/persons/person4.jpg')] bg-cover bg-top cursor-pointer flex items-center justify-center">
+                    <div id="body5dText" class="text-center space-y-3 hidden">
+                        <h1 class="text-5xl font-semibold">lisa riley</h1>
+                        <h5 class="text-2xl capitalize">pr manager</h5>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+    <section id="section6" class="bg-cover bg-center h-full py-40 space-y-20">
+
+        <div id="head6" class="group pl-4 xl:pl-52 flex flex-col space-y-6">
+            <div class="bg-white py-2 px-8 self-start"></div>
+            <h1
+                class=" max-[300px]:text-3xl max-[370px]:text-4xl text-[#222222] min-[371px]:text-5xl sm:text-6xl xl:text-[6.5rem] xl:leading-[6rem] font-bold w-[35%] sm:w-[40%] md:w-[30%] lg:w-[25%] xl:w-[40%] 2xl:w-[30%] min-[1600px]:w-[30%] min-[2000px]:w-[20%] min-[2500px]:w-[20%] uppercase">
+                fun facts</h1>
+        </div>
+
+        <div id="body6"
+            class="pl-4 xl:pl-52 w-full space-y-20 xl:flex text-white items-center justify-between xl:justify-normal  xl:space-x-24 xl:space-y-0">
+
+            <div
+                class="flex items-center justify-between xl:justify-normal xl:space-x-44 w-full min-[1800px]:space-x-72">
+
+                <div id="body6a" class="group flex flex-col space-y-10">
+                    <h1 class="text-6xl font-bold">106</h1>
+                    <h5 class="text-xl w-1/2 font-semibold tracking-widest uppercase leading-none">happy clients</h5>
+                </div>
+
+                <div id="body6b" class="group flex flex-col space-y-10">
+                    <h1 class="text-6xl font-bold">198</h1>
+                    <h5 class="text-xl w-1/2 font-semibold tracking-widest uppercase leading-none">websites launched
+                    </h5>
+                </div>
+            </div>
+
+            <div
+                class="flex items-center justify-between xl:justify-normal xl:space-x-44 w-full min-[1800px]:space-x-72">
+
+                <div id="body6c" class="group flex flex-col space-y-10">
+                    <h1 class="text-6xl font-bold">506</h1>
+                    <h5 class="text-xl w-1/2 font-semibold tracking-widest uppercase leading-none">social campaigns</h5>
+                </div>
+
+                <div id="body6d" class="group flex flex-col space-y-10">
+                    <h1 class="text-6xl font-bold">1603</h1>
+                    <h5 class="text-xl w-1/2 xl:w-[60%] font-semibold tracking-widest uppercase leading-none">cups of
+                        coffee</h5>
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+    <section id="section7" class="py-20 pl-4 xl:pl-52 w-full>
+        <div id=" head6" class="group flex flex-col space-y-6 pb-10">
+        <div class="bg-white py-2 px-8 self-start"></div>
+        <h1
+            class=" max-[300px]:text-3xl max-[370px]:text-4xl text-[#222222] min-[371px]:text-5xl sm:text-6xl xl:text-[6.5rem] xl:leading-[6rem] font-bold w-[35%] sm:w-[40%] md:w-[30%] lg:w-[25%] xl:w-[40%] 2xl:w-[30%] min-[1600px]:w-[30%] min-[2000px]:w-[20%] min-[2500px]:w-[20%] uppercase">
+            get in touch</h1>
+        </div>
+
+        <div id="body6"
+            class=" w-full md:flex md:space-x-10 lg:space-x-20 min-[1800px]:space-x-32 min-[2200px]:space-x-40 md:justify-between xl:justify-normal space-y-10 md:space-y-0">
+
+            <form action="#" id="body6a"
+                class="space-y-4 pr-10 xl:pr-0 md:w-1/2 xl:w-[40%] min-[1800px]:w-[30%] flex flex-col">
+
+                <div id="formName" class="space-y-1">
+                    <label for="name" class="capitalize block text-lg font-medium">Enter your name*</label>
+                    <input type="text" required placeholder="Name"
+                        class="border-2 hover:border-[1px] focus:bg-gray-300 border-black py-2 w-full px-2 placeholder:text-black">
+                </div>
+
+                <div id="formMail" class="space-y-1">
+                    <label for="mail" class="capitalize block text-lg font-medium">Enter your email*</label>
+                    <input type="email" name="mail" id="mail" required placeholder="Email"
+                        class="border-2 hover:border-[1px] focus:bg-gray-300 border-black py-2 w-full px-2 placeholder:text-black">
+                </div>
+
+                <div id="formSubject" class="space-y-1">
+                    <label for="sub" class="capitalize block text-lg font-medium">Enter your subject*</label>
+                    <input type="text" name="sub" id="sub" required placeholder="Subject"
+                        class="border-2 hover:border-[1px] focus:bg-gray-300 border-black py-2 w-full px-2 placeholder:text-black">
+                </div>
+
+                <div id="formMessage" class="space-y-1">
+                    <label for="msg" class="capitalize block text-lg font-medium">Enter your message*</label>
+                    <input type="text" name="msg" id="msg" required placeholder="Message"
+                        class="border-2 hover:border-[1px] focus:bg-gray-300 border-black py-8 w-full px-2 placeholder:text-black">
+                </div>
+
+                <button class="bg-[#4e5ac3] py-3 px-10 text-white self-end">Submit</button>
+
+            </form>
+
+            <div id="body6b" class="space-y-6">
+                <h1 class="font-bold text-xl tracking-widest">We can't wait to hear from you</h1>
+                <p class="text-xl w-[60%]">500 Terry Francine Street,
+                    San Francisco,
+                    CA 94158
+                </p>
+                <div>
+                    <h1 class="font-bold text-xl">info@mysite.com</h1>
+                    <h1 class="font-bold text-xl">123-456-7890</h1>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+        integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+        integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"
+        integrity="sha512-v/m68W+vaGN/6igoyFpd4GlQzu0jx9/n5gr2PKq5vif+RObyGKHse384YHrOULaxZ810XhlHUrmB3U8UnPB19Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
